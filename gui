@@ -65,7 +65,7 @@ MainTab:CreateLabel("Credits to: GodofLove076")
 MainTab:CreateLabel("━━━━━━━━━━━━━━━━━━━━━━")
 MainTab:CreateLabel("Tiktok: intereactive2")
 MainTab:CreateLabel("Thank You For Using This Script!")
-MainTab:CreateLabel(" Soonlkidd's scripts on FE Tab ")
+MainTab:CreateLabel("Soonlkidd's scripts on FE Tab")
 MainTab:CreateLabel("Lola Is Amazing to Me")
 
 -- Create Scripts Tab (Second Tab)
