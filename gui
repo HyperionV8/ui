@@ -1,0 +1,300 @@
+-- Load Rayfield UI Library
+local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
+
+-- Create Window
+local Window = Rayfield:CreateWindow({
+    Name = "16visiønX Hub",
+    LoadingTitle = "16visiønX V2",
+    LoadingSubtitle = "By 16visiønX",
+    
+Theme = {
+    TextColor = Color3.fromRGB(255, 255, 255), -- White Text
+    Background = Color3.fromRGB(0, 0, 0), -- Black Background
+    Topbar = Color3.fromRGB(30, 30, 30), -- Dark Gray
+    Shadow = Color3.fromRGB(20, 20, 20), -- Darker Shadow
+    NotificationBackground = Color3.fromRGB(25, 25, 25),
+    NotificationActionsBackground = Color3.fromRGB(200, 200, 200), -- Light Gray
+    TabBackground = Color3.fromRGB(40, 40, 40),
+    TabStroke = Color3.fromRGB(60, 60, 60),
+    TabBackgroundSelected = Color3.fromRGB(255, 255, 255), -- White
+    TabTextColor = Color3.fromRGB(255, 255, 255),
+    SelectedTabTextColor = Color3.fromRGB(0, 0, 0), -- Black for contrast
+    ElementBackground = Color3.fromRGB(35, 35, 35),
+    ElementBackgroundHover = Color3.fromRGB(50, 50, 50),
+    SecondaryElementBackground = Color3.fromRGB(25, 25, 25),
+    ElementStroke = Color3.fromRGB(70, 70, 70),
+    SecondaryElementStroke = Color3.fromRGB(50, 50, 50),
+    SliderBackground = Color3.fromRGB(100, 100, 100), -- Gray Slider
+    SliderProgress = Color3.fromRGB(255, 255, 255), -- White Progress
+    SliderStroke = Color3.fromRGB(150, 150, 150),
+    ToggleBackground = Color3.fromRGB(40, 40, 40),
+    ToggleEnabled = Color3.fromRGB(255, 255, 255), -- White Toggle
+    ToggleDisabled = Color3.fromRGB(80, 80, 80),
+    ToggleEnabledStroke = Color3.fromRGB(200, 200, 200), -- Light Gray Stroke
+    ToggleDisabledStroke = Color3.fromRGB(120, 120, 120),
+    ToggleEnabledOuterStroke = Color3.fromRGB(80, 80, 80),
+    ToggleDisabledOuterStroke = Color3.fromRGB(60, 60, 60),
+    DropdownSelected = Color3.fromRGB(50, 50, 50),
+    DropdownUnselected = Color3.fromRGB(40, 40, 40),
+    InputBackground = Color3.fromRGB(50, 50, 50),
+    InputStroke = Color3.fromRGB(80, 80, 80),
+    PlaceholderColor = Color3.fromRGB(200, 200, 200) -- Light Gray Placeholder
+},
+
+    ConfigurationSaving = {
+        Enabled = false,
+    },
+    KeySystem = true,
+    KeySettings = {
+        Title = "16visiønX",
+        Subtitle = "Enter Key to Continue",
+        Note = "Get the key from Pastebin!: https://pastebin.com/GJFZWweH",
+        FileName = "V - Key",
+        SaveKey = true,
+        GrabKeyFromSite = true,
+        Key = "VisionZX"
+    }
+})
+
+-- Create Main | Credits Tab
+local MainTab = Window:CreateTab("Main | Credits", "Home")
+
+-- Add Labels to Main | Credits Tab
+MainTab:CreateLabel("Welcome To 16visiønX Hub!")
+MainTab:CreateLabel("Credits to: GodofLove076")
+MainTab:CreateLabel("━━━━━━━━━━━━━━━━━━━━━━")
+MainTab:CreateLabel("Tiktok: intereactive2")
+MainTab:CreateLabel("Thank You For Using This Script!")
+MainTab:CreateLabel(" Soonlkidd's scripts on FE Tab )
+MainTab:CreateLabel("Lola Is Amazing to Me")
+
+-- Create Scripts Tab (Second Tab)
+local ScriptsTab = Window:CreateTab("Scripts", "square-chevron-right")  
+
+-- Create a Section for 16visiønX's Scripts
+local VisionScriptsSection = ScriptsTab:CreateSection("16visiønX's Scripts")
+
+-- Add the 6 new scripts first
+ScriptsTab:CreateButton({
+    Name = "Inject Stigma Logo",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("1c4a538a8fe2489c30ee46dd7ee081e6")
+    end,
+})
+
+ScriptsTab:CreateButton({
+    Name = "Inject Stigma Logo [B&W]",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("fc518614c64bcacf4196fa2841b4a407")
+    end,
+})
+
+ScriptsTab:CreateButton({
+    Name = "Inject Dominant Executor Logo",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("d6a3cee81b85cce5fe3d784933faa655")
+    end,
+})
+
+ScriptsTab:CreateButton({
+    Name = "V - Decal Part",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("c7ef8c7dedb39e3ebbd472893aabfba6")
+    end,
+})
+
+ScriptsTab:CreateButton({
+    Name = "V - Hint",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("58f07e98d70802e23e603ffc872b2eee")
+    end,
+})
+
+ScriptsTab:CreateButton({
+    Name = "V - Message",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("bdc3d9e9458f4ddee0e20da01a376c5b")
+    end,
+})
+
+-- Existing Scripts (Maintaining Order)
+ScriptsTab:CreateButton({
+    Name = "V - Skybox",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("3939439521399f0d509feeffc64845b0")
+    end,
+})
+
+ScriptsTab:CreateButton({
+    Name = "V - Particle Emitter",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("2c0295f63c3199f38e7e7927e91f8ed8")
+    end,
+})
+
+ScriptsTab:CreateButton({
+    Name = "V - Music",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("5a01e28f8d01deb3a06e00f5e2dd7269")
+    end,
+})
+
+ScriptsTab:CreateButton({
+    Name = "V - Disco",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("b3e5e03115cac16fe4adc19bcc91eef0")
+    end,
+})
+-- Create Admin Tab
+local AdminTab = Window:CreateTab("Admin", "user")
+
+-- Admin Scripts Section
+local AdminScriptsSection = AdminTab:CreateSection("Admin Scripts")
+
+-- Buttons for Admin Scripts
+AdminTab:CreateButton({
+    Name = "Simple Spy A",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/GE6Yii93", true))()
+    end,
+})
+
+AdminTab:CreateButton({
+    Name = "Infinite Yield A",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+    end,
+})
+
+AdminTab:CreateButton({
+    Name = "Fates A",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua", true))()
+    end,
+})
+
+AdminTab:CreateButton({
+    Name = "Fedora A",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/alexx1212/fedoratoomutch/main/toomucth'))()
+    end,
+})
+
+AdminTab:CreateButton({
+    Name = "Nameless A",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source", true))()
+    end,
+})
+
+AdminTab:CreateButton({
+    Name = "Krunox A",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Krunox-13336"))()
+    end,
+})
+
+-- Create Soonlkidd's FE GUI Tab
+local FE_Tab = Window:CreateTab("Soonlkidd's FE GUI", "Codesandbox")
+
+-- FE Scripts Section
+local FE_Section = FE_Tab:CreateSection("Soonlkidd's Scripts")
+
+-- FE Script Buttons
+FE_Tab:CreateButton({
+    Name = "Inject Stigma Logo",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("4bd135dc6dc44fbca40cb1b5d31af611")
+    end,
+})
+
+-- FE Script Buttons
+FE_Tab:CreateButton({
+    Name = "Guest_999s0",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/MFyvPtEN"))()
+    end,
+})
+
+FE_Tab:CreateButton({
+    Name = "Polaria",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()
+        Ioad("fd7334aa6fff7e114c6a4476b7f8d810")
+    end,
+})
+
+FE_Tab:CreateButton({
+    Name = "Young Shelon GUI",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/asrzS5Ha"))()
+    end,
+})
+
+FE_Tab:CreateButton({
+    Name = "Obama Jumpscare",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/fWiapqXJ"))()
+    end,
+})
+
+FE_Tab:CreateButton({
+    Name = "Dominater Executor",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/u97psnsQ"))()
+    end,
+})
+
+FE_Tab:CreateButton({
+    Name = "Exser",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gitluau/luauexser/refs/heads/main/pHzp8uG1PO962o6qucrlP3AJy17eV3B.lua"))()
+    end,
+})
+
+FE_Tab:CreateButton({
+    Name = "T0PK3K",
+    Interact = 'Click',
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/T0PK3K%204.0"))()
+    end,
+})
+
+-- Notify Success
+Rayfield:Notify({
+    Title = "Loaded",
+    Content = "16visiønX Hub loaded successfully!",
+    Duration = 3,
+    Image = 4483362458,
+    Actions = {
+        Ignore = {
+            Name = "OK",
+            Callback = function()
+                print("User closed notification")
+            end
+        }
+    }
+})
